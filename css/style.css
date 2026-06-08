@@ -35,13 +35,13 @@ body{
     background-color: #fff;
     margin: 35px;
     border-radius: 20px;
-    position: absolute;
+   
     box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.09);
 }
 
 .card:hover{
     box-shadow: 0px 0px 36px 18px rgba(0, 0, 0, 0.37);
-    transition: .5s;
+    transition: .6s;
 }
 
 .card img{
@@ -93,7 +93,16 @@ body{
 }
 
 .con2 button:hover{
-   box-shadow: 10px 8px 26px -9px rgba(0, 0, 0, 0.61);
+  
     background-color: rgb(121, 10, 10);
     transition: 0.5s;
+}
+
+.container {
+    display: flex;     
+    justify-content: space-evenly;    
+    flex-direction: row;   
+    flex-wrap: wrap;     
+    gap: 20px;            
+    padding: 20px;
 }
